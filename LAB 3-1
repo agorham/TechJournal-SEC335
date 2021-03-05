@@ -1,2 +1,8 @@
 Things to remember:
 
+	Command for finding vulnerabilities in nmap:
+		nmap IP --script vuln
+		
+	NOTE:
+		Vuln Script takes roughly 5 Minutes per scan.
+		May be a good idea write the nmap to a log for this scan.
