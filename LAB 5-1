@@ -1,0 +1,10 @@
+Things to remember:
+
+  Command to remote mysql:
+    mysql -u USERNAME -pPASSWORD -h IP
+
+	Command for mysql show grants (current user):
+		SHOW GRANTS FOR CURRENT_USER;
+		
+	Command for loading file in mysql:
+		select load_file('/folder/file');
